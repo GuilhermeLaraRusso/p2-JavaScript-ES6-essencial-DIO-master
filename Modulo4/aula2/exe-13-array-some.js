@@ -1,8 +1,13 @@
-// const arr = [1, 3, 3, 7, 4];
+//verifica se certa condição é atendida ou não e retorna boolean
 
-// //verifica se certa condição é atendida ou não e retorna boolean
-// const temNumeroPar = arr.some(value => value %2 === 0);
-// console.log(temNumeroPar);
+
+//Exemplo 1
+
+const arr = [1, 3, 3, 7, 4];
+const temNumeroPar = arr.some(value => value %2 === 0);
+console.log(temNumeroPar);
+
+// Exemplo 2
 
 const alunos = [
     {

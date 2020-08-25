@@ -1,3 +1,5 @@
+// Retorna um novo tipo de dado iterando cada posição de um array
+
 const arr = [10, 20, 30, 40];
 
 const somaArr = arr.reduce((total, value) => total += value, 0);

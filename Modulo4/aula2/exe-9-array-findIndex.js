@@ -1,3 +1,5 @@
+// Retorna o índice do primeiro item de um array que satisfaz a condição
+
 const numeros = [25, 50, 100, 150];
 
 const buscarIndex = numeros.findIndex(value => value > 50);

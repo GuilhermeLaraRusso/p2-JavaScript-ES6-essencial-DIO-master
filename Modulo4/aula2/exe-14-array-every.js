@@ -1,3 +1,14 @@
+// Retorna um boolean verificando se todos os itens de um array satisfazem a dondição
+
+
+// Exemplo 1
+
+const arr = [1, 3, 3, 4, 3];
+const allEvenNumbers = arr.every(value => value % 2 === 0);
+console.log(allEvenNumbers);
+
+//Exemplo 2
+
 const alunos = [
     {
         nome: 'André',

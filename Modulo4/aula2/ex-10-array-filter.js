@@ -1,3 +1,5 @@
+// Retorna um novo array com todos os elementos que satisfazem a condição
+
 const numeros = [10, 20, 30, 40, 50];
 
 const numerosFiltrados = numeros.filter(value => value > 30);

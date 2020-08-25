@@ -1,3 +1,5 @@
+// Ordena os elementos de um array de acordo com a condição
+
 const alunos = [
     {
         nome: 'André',
@@ -22,3 +24,9 @@ console.log(ordenarAlunos);
 const ordenarAlunosDesc = alunos.sort((current, next) => next.nota - current.nota);
 console.log(ordenarAlunosDesc);
 
+
+// Exemplo 2
+
+const arr = [1, 3, 2, 5, 4];
+arr.sort();
+console.log(arr.sort());
